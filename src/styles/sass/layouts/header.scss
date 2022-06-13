@@ -1,0 +1,44 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 100px;
+   margin-right: 100px;
+   @include mobile-only {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+   &__link {
+      color: #ff6060;
+      font-size: 24px;
+      margin-left: 57px;
+      margin-top: 57px;
+      @include mobile-only {
+         font-size: 12px;
+         margin-left: 20px;
+         text-transform: uppercase;
+      }
+      &:hover,
+      &:active,
+      &:focus {
+         text-decoration: underline;
+      }
+   }
+   &__logo {
+      flex-grow: 2;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      > img {
+         width: 200px;
+         @include mobile-only {
+            width: 150px;
+         }
+      }
+   }
+}
+
+// @media screen and (max-width: 880px) {
+//    .header {
+//       margin-left: 20px;
+//       margin-right: 20px;
+//    }
+// }

@@ -1,0 +1,13 @@
+/*COLORS*/
+$primary-color: #ff6060;
+$secondary-color: #f6f6f6;
+$tertiary-color: darken($secondary-color, 10%);
+
+/*COLORS*/
+$main-font: 'Montserrat', Arial, Helvetica, sans-serif;
+
+/*BREACKPOINT*/
+$breakpoints: (
+   mobile: 880px,
+   //    desk: 1163px,
+);

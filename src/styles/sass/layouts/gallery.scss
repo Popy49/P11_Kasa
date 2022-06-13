@@ -1,0 +1,20 @@
+.gallery {
+   // display: flex;
+   // flex-wrap: wrap;
+   // justify-content: space-between;
+   background: #f7f7f7;
+   border-radius: 25px;
+   padding: 30px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-gap: 1rem;
+   grid-auto-rows: 300px;
+   grid-auto-flow: dense;
+   list-style-type: none;
+   // padding: 0;
+   margin: 0 0 20px 0;
+   @include mobile-only {
+      padding: 0;
+      background: #ffffff;
+   }
+}

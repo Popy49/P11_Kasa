@@ -1,0 +1,29 @@
+.error {
+   text-align: center;
+   height: 65vh;
+   &__title {
+      font-size: 288px;
+      font-weight: 700;
+      @include mobile-only {
+         font-size: 96px;
+      }
+   }
+   &__subtitle {
+      font-weight: 500;
+      font-size: 36px;
+      margin: auto;
+      @include mobile-only {
+         font-size: 18px;
+      }
+   }
+   &__backLink {
+      display: block;
+      font-weight: 500;
+      font-size: 18px;
+      text-decoration: underline;
+      margin-top: 100px;
+      @include mobile-only {
+         font-size: 14px;
+      }
+   }
+}
