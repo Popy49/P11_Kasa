@@ -27,7 +27,7 @@ const speech = [
 function About() {
    return (
       <main>
-         <div className="banner">
+         <div className="banner2">
             <img src={background} alt="banner" />
          </div>
          {speech.map((subject, index) => (

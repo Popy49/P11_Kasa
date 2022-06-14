@@ -4,7 +4,7 @@ import { useState } from 'react'
 import PropTypes from 'prop-types'
 
 function Dropdown({ datas, title }) {
-   const [isActive, setIsActive] = useState(false)
+   const [isActive, setIsActive] = useState(true)
    datas = Array.isArray(datas) ? datas : [datas]
 
    return isActive ? (
@@ -28,7 +28,7 @@ function Dropdown({ datas, title }) {
 }
 
 Dropdown.propTypes = {
-   datas: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+   datas: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
    title: PropTypes.string.isRequired,
 }
 

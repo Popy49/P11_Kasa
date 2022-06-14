@@ -17,6 +17,42 @@
       vertical-align: middle;
       width: 100vw;
       text-align: left;
+      border-radius: 10px;
+   }
+   > h1 {
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+      width: 100%;
+      font-size: 48px;
+      @include mobile-only {
+         padding-left: 10px;
+         font-size: 24px;
+         line-height: 30px;
+      }
+   }
+   > img {
+      border-radius: 25px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(70%) saturate(140%);
+      @include mobile-only {
+         border-radius: 10px;
+      }
+   }
+}
+
+.banner2 {
+   width: 100%;
+   border-radius: 25px;
+   color: #ffffff;
+   text-align: center;
+   @include mobile-only {
+      height: 151px;
+      display: table-cell; /* comportement visuel de cellule */
+      vertical-align: middle;
+      width: 100vw;
+      text-align: left;
    }
    > h1 {
       color: rgb(255, 255, 255);
@@ -27,6 +63,7 @@
       @include mobile-only {
          padding-left: 10px;
          font-size: 24px;
+         line-height: 80px;
       }
    }
    > img {

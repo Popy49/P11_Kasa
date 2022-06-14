@@ -37,7 +37,8 @@ function Carrousel({ pictures }) {
 }
 
 Carrousel.propTypes = {
-   pictures: PropTypes.array,
+   pictures: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
+      .isRequired,
 }
 
 export default Carrousel

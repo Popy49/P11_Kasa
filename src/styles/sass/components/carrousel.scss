@@ -4,6 +4,9 @@
       height: 415px;
       border-radius: 25px;
       object-fit: cover;
+      @include mobile-only {
+         border-radius: 10px;
+      }
    }
    &__button {
       position: absolute;
@@ -16,6 +19,13 @@
       &--right {
          margin-left: -80px;
          margin-top: 150px;
+         @include mobile-only {
+            margin-left: -50px;
+         }
+      }
+      @include mobile-only {
+         font-size: 40px;
+         margin-top: 190px;
       }
    }
 }

@@ -77,11 +77,13 @@ ul {
    justify-content: space-between;
    align-content: stretch;
    gap: 76px;
+
    .Dropdown {
       width: 50%;
    }
    @include mobile-only {
       flex-direction: column;
+      gap: 0;
       .Dropdown {
          width: 100%;
       }
