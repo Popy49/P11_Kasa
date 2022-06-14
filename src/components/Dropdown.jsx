@@ -28,7 +28,7 @@ function Dropdown({ datas, title }) {
 }
 
 Dropdown.propTypes = {
-   datas: PropTypes.string,
+   datas: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
    title: PropTypes.string.isRequired,
 }
 
