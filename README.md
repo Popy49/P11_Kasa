@@ -1,4 +1,4 @@
-# Kasa private apartment rental Front end application
+# Kasa : private apartment rental Front end application
 It's a front-end responsive application uses create React app
 
 
