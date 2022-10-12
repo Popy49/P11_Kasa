@@ -1,6 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import {
+   BrowserRouter as Router,
+   Routes,
+   Route,
+   HashRouter,
+} from 'react-router-dom'
 import './styles/style.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -12,7 +17,7 @@ import Error from './components/Error'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
    <React.StrictMode>
-      <Router>
+      <HashRouter>
          <Header />
          <Routes>
             <Route exact path="/" element={<Home />} />
@@ -21,6 +26,6 @@ root.render(
             <Route path="*" element={<Error />} />
          </Routes>
          <Footer />
-      </Router>
+      </HashRouter>
    </React.StrictMode>
 )

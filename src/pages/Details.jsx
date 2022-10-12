@@ -15,7 +15,7 @@ function Details() {
    const [error, setError] = useState(null)
 
    useEffect(() => {
-      fetch('../../locationList.json')
+      fetch('../../P11_Kasa/locationList.json')
          .then(function (res) {
             return res.json()
          })

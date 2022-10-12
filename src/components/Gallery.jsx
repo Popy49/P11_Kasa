@@ -7,11 +7,13 @@ function Gallery() {
    const [error, setError] = useState(null)
 
    useEffect(() => {
-      fetch('./locationList.json')
+      fetch('./P11_Kasa/locationList.json')
          .then(function (res) {
+            console.log(res)
             return res.json()
          })
          .then(function (data) {
+            console.log(data)
             setData(data)
             setIsLoaded(true)
          })
