@@ -4,8 +4,8 @@ It's a front-end responsive application uses create React app
 
 ## 1. Technologies
 ![react](https://img.shields.io/badge/React-18.1.0-blue?raw=true "react")
-![reactdom](https://img.shields.io/badge/React-dom-18.1.0-blue?raw=true "reactdom")
-![reactrouter](https://img.shields.io/badge/React-router-6.3.0-green?raw=true "reactrouter")
+![reactdom](https://img.shields.io/badge/React--dom-18.1.0-blue?raw=true "reactdom")
+![reactrouter](https://img.shields.io/badge/React--router-6.3.0-green?raw=true "reactrouter")
 ![Fontawesome](https://img.shields.io/badge/Made%20with-Fontawesome-red?raw=true "Fontawesome")
 
 ## 2. Project installation
